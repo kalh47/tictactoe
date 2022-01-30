@@ -1,0 +1,46 @@
+
+/* 200px adjustment is gridsize specific */
+.container {
+    position:absolute;
+    top: 50%;
+    margin-top: -200px;
+    left: 50%;
+    margin-left: -200px;
+    /* border-width: 2px;
+    border: solid red; */
+}
+
+
+.line {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* border-width: 2px;
+    border: solid black; */
+}
+
+.cell {
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-width: 4px;
+    border-bottom: solid black;
+    border-right: solid black;
+    margin: 0;
+}
+
+.blank-o {
+    cursor: url('./co.png'), auto;
+}
+
+.blank-x {
+    cursor: url('./cx.png'), auto;
+}
+
+img {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 5%;
+    user-select: none;
+    -webkit-user-drag: none;
+}
